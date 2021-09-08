@@ -88,7 +88,6 @@
 * Create methods to update more than one table
 * Add transactions to bank operations via Sequelize
 * Interpret versioning warnings and make corrections
-* 
 * Create a service layer
 * Transfer the controller's database interface to the service
 * Update code in controller to access services

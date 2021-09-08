@@ -1,25 +1,26 @@
 {
   "development": {
-    "username": "Carlos",
-    "password": "admin123",
-    "database": "escola_ingles",
+    "username": "root",
+    "password": "root",
+    "database": "ORM-CARLOS",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb",
+    "operatorsAliases": false
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "root",
     "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "mariadb",
     "operatorsAliases": false
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "root",
     "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "mariadb",
     "operatorsAliases": false
   }
 }

@@ -22,7 +22,7 @@
 ## 📑 About
 
 ## This is a Javascript project created in order to learn the main features and advantages of ORM with Sequelize. Creating this applicantion i could learn about:
-# Brach V1
+## Branch V1
 * Create a new project from scratch with Sequelize;
 * Make restrictions on the project;
 * Up a basic local server with Express and Nodemon;
@@ -61,7 +61,7 @@
 * Use this data to find information in the bank;
 * Generate JSON-type data structures with useful user information.
 
-# Brach V2
+## Branch V2
 * Update Sequelize Version
 * Add "Paranoid" option to make the deletion smooth
 * Create migrations to add columns to tables

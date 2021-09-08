@@ -21,7 +21,7 @@
   
 ## 📑 About
 
-## This is a Javascript project created in order to learn the main features and advantages of ORM with Sequelize. Creating this applicantion i could learn about:
+## This is a Javascript project created in order to learn the main features and advantages of ORM with Sequelize. Creating this application i could learn about:
 ## Branch V1
 * Create a new project from scratch with Sequelize;
 * Make restrictions on the project;

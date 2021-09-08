@@ -21,41 +21,83 @@
   
 ## 📑 About
 
-## This is a Typescript project created in order to learn the main features and advantages of typescript. Creating this applicantion i could learn about:
-Brach V1;
-* Modeling holes due to limitations of the Javascript language
-* Initial Benefits of the TypeScript Language
-* Compiler configuration and tsconfig.json role
-* tsc compiler settings
-* Integration with Node.js scripts
-* Private and public access modifiers
-* Implicit type any
-* Benefits of static typing
-* Explicit method return
-* Conversion of interface values
-* defensive programming
+## This is a Javascript project created in order to learn the main features and advantages of ORM with Sequelize. Creating this applicantion i could learn about:
+Main;
+* Create a new project from scratch with Sequelize;
+* Make restrictions on the project;
+* Up a basic local server with Express and Nodemon;
+* Install MySQL and how to access via terminal.
+* Create a new database and connect it to the application.
 
-Branch V2;
-* typescript inheritance
-* generic type classes
-* abstractic classes
-* protected private and public modificators
-* advantages and care of using enums
-* static methods
-* Optional parameters
-* Removing comments from compiled code
-* Activating strictNullChecks
-* Benefits of strictNullChecks in controlling your application's flow
+* Create terminal migration files and templates
+* What are migrations with ORMs and what they are
+* Perform migrations to create database tables
+* Popular tables via seed files
 
-Branch V3;
-* Method Decorator
-* Log runtime with decorator
-* Creating an Inspection Decorator
-* Portability of old functionality for decorators
-* Using Object.defineProperty
-* Dynamic getter creation
-* Practical application of polymorphism
-* Generation of sourmaps and application debugging in the browser
+* How the MVC model works
+* What is a control layer and what it is for
+* Creating a controller
+* How to Use Sequelize Methods to Query the Database
+* Separating responsibility from routes to have an organized application
+* How to create a route to the People template
+* Call a People controller method via the route with the HTTP GET verb
+
+* Use other Sequel methods for CRUD operations
+* Sending data via HTTP request parameters
+* Send data via HTTP request body
+* Create routes for each operation
+* Associate routes to each method of the People controller
+
+* Interpret the database diagram
+* Identify the types of relationship requested in the project
+* Join Sequelize Method Tables
+* Reference associated tables
+* Migrate associated tables
+* Associated Popular Tables
+
+* Add new drivers;
+* Work with more than one model on the same controller;
+* Send data via parameters and request bodies;
+* Use this data to find information in the bank;
+* Generate JSON-type data structures with useful user information.
+
+* Update Sequelize Version
+* Add "Paranoid" option to make the deletion smooth
+* Create migrations to add columns to tables
+* Create deletedAt column to use soft delete feature
+* Restore deleted records via soft delete using .restore()
+
+* Set a default template scope (defaultScope)
+* Define other additional scopes as needed by the project
+* Using an additional scope with the .findAll() method
+* Validate input data using Sequelize's own validators
+* Refine and customize field validations using functions and pure JS
+
+* What are membership scopes
+* How to define a new membership scope
+* Use own methods/mixins on associated tables
+* Add a search filter via query parameters
+* Use Operators to Do Data Operations
+* Return results filtered through operators
+* Filter and enumerate records with "finders" methods
+* Sort the results with the "order" option
+* Group records with "group"
+* Passing SQL commands into Sequelize with Sequelize.literal()
+
+* Create methods to update more than one table
+* Add transactions to bank operations via Sequelize
+* Interpret versioning warnings and make corrections
+* 
+* Create a service layer
+* Transfer the controller's database interface to the service
+* Update code in controller to access services
+* Create specific services that inherit methods from the main class
+* Organize services by creating an entry point (index.js)
+* Create specific methods for a service/template
+* Passing parameters from controllers to services
+* Connect services to each other
+* Refactor the application to separate controllers and services
+
 
 
 ## ✨ Installation
@@ -63,25 +105,14 @@ Open a terminal and run the following commands:
 
 ```PowerShell
 # To copy this repository
-git clone https://github.com/CarlosDanielS3/TypeScript.git
+git clone https://github.com/CarlosDanielS3/ORM-with-Sequelize.git
 
 # To move to project directory
-cd TypeScript
+cd ORM-with-Sequelize
 
 # To install the dependencies
 yarn
 ```
-and 
-
-```PowerShell
-# To move to project directory
-cd servidor-api
-
-# To install the dependencies
-yarn
-```
-
-
 ## 🔥 Running
 You can run the application in development mode with the command:
 
@@ -89,12 +120,3 @@ You can run the application in development mode with the command:
 #Run the Server
 yarn start
 ```
-
-and 
-
-```Powershell
-# To run Aplication the consumed API
-cd servidor-api
-yarn start
-```
-

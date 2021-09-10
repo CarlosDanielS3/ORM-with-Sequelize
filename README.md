@@ -98,9 +98,9 @@
 * Refactor the application to separate controllers and services
 
 ## Branch V3
-*coming soon
-*convert the entire project to typescript
-*tests coverage with jest and circle CI deploy
+* coming soon
+* convert the entire project to typescript
+* tests coverage with jest and circle CI deploy
 
 
 
